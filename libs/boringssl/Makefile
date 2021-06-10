@@ -27,7 +27,7 @@ define Package/boringssl
 	CATEGORY:=Libraries
 	TITLE:=An implementation of the TLS protocol
 	URL:=https://boringssl.googlesource.com/boringssl/
-	DEPENDS:=+golang/host \
+	DEPENDS:=+golang \
 		 @(i386||x86_64||arm||armeb||aarch64)
 endef
 
